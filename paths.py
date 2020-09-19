@@ -1,0 +1,5 @@
+resnext_101_32_path = './pretrained/resnext_101_32x4d.pth'
+pretrained_res_best = './pretrained/res_best.pth'
+pretrained_vgg_best = './pretrained/vgg_best.pth'
+DUTDefocus = './datasets/DUTDefocus'
+CUHKDefocus = './datasets/CUHKDefocus'
