@@ -57,3 +57,27 @@ depth-distillation/
 ```
 
 4. run the jupyter notebook to evaluate. 
+
+
+## **Acknowledgements**
+The author would like to thanks Nan Chen for her helpful discussion.
+
+Part of the code is based upon [Pytorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) and [Shadow Detection](https://github.com/zijundeng/BDRAR)
+
+## **Citation**
+
+If you find our work useful in your research, please consider citing:
+
+```
+@misc{cun2019ghostfree,
+    title={Towards Ghost-free Shadow Removal via Dual Hierarchical Aggregation Network and Shadow Matting GAN},
+    author={Xiaodong Cun and Chi-Man Pun and Cheng Shi},
+    year={2019},
+    eprint={1911.08718},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
+
+## **Contact**
+Please contact me if there is any question (Xiaodong Cun yb87432@um.edu.mo)
