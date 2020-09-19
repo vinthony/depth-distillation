@@ -69,13 +69,11 @@ Part of the code is based upon [Pytorch-GAN](https://github.com/eriklindernoren/
 If you find our work useful in your research, please consider citing:
 
 ```
-@misc{cun2019ghostfree,
-    title={Towards Ghost-free Shadow Removal via Dual Hierarchical Aggregation Network and Shadow Matting GAN},
-    author={Xiaodong Cun and Chi-Man Pun and Cheng Shi},
-    year={2019},
-    eprint={1911.08718},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@article{cun2020defocus,
+  title={Defocus Blur Detection via Depth Distillation},
+  author={Cun, Xiaodong and Pun, Chi-Man},
+  journal={arXiv preprint arXiv:2007.08113},
+  year={2020}
 }
 ```
 
