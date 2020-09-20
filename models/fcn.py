@@ -11,7 +11,7 @@ from .blocks import *
 
 class ResNextDecoderAtt(nn.Module):
 
-    def __init__(self, pretrained_net, n_class=1, type='res', decoder=UpsampleSKConvPlus3, side=SideClassifer,att=MergeAndConv):
+    def __init__(self, pretrained_net, n_class=1, type='res', decoder=UpsampleSKConv, side=SideClassifer,att=MergeAndConv):
         super().__init__()
         self.n_class = n_class
         self.pretrained_net = pretrained_net

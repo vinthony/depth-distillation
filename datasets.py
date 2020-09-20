@@ -7,7 +7,7 @@ from PIL import Image
 import torchvision.transforms as transforms
 
 class DefocusDataset(Dataset):
-    def __init__(self, root='/home/liuxuebo/Datasets/CUHKDefocus/', mode="train"):
+    def __init__(self, root='./datasets/CUHKDefocus/', mode="train"):
 
         self.root = root
         self.is_train = True if mode == 'train' else False
@@ -29,11 +29,6 @@ class DefocusDataset(Dataset):
             transforms.Resize((320, 320), Image.BICUBIC),
             transforms.ToTensor(),
             transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-        ])
-
-        self.label_transform = transforms.Compose([
-            transforms.Resize((320, 320), Image.BICUBIC),
-            transforms.ToTensor(),
         ])
 
         print('Dataset:%s'%(len(self.images)))
