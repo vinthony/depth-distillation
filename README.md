@@ -57,3 +57,25 @@ depth-distillation/
 ```
 
 4. run the jupyter notebook to evaluate. 
+
+
+## **Acknowledgements**
+The author would like to thanks Nan Chen for her helpful discussion.
+
+Part of the code is based upon [Pytorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) and [Shadow Detection](https://github.com/zijundeng/BDRAR)
+
+## **Citation**
+
+If you find our work useful in your research, please consider citing:
+
+```
+@article{cun2020defocus,
+  title={Defocus Blur Detection via Depth Distillation},
+  author={Cun, Xiaodong and Pun, Chi-Man},
+  journal={arXiv preprint arXiv:2007.08113},
+  year={2020}
+}
+```
+
+## **Contact**
+Please contact me if there is any question (Xiaodong Cun yb87432@um.edu.mo)
