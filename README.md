@@ -69,11 +69,13 @@ Part of the code is based upon [Pytorch-GAN](https://github.com/eriklindernoren/
 If you find our work useful in your research, please consider citing:
 
 ```
-@article{cun2020defocus,
-  title={Defocus Blur Detection via Depth Distillation},
-  author={Cun, Xiaodong and Pun, Chi-Man},
-  journal={arXiv preprint arXiv:2007.08113},
-  year={2020}
+@misc{cun2020defocus,
+      title={Defocus Blur Detection via Depth Distillation}, 
+      author={Xiaodong Cun and Chi-Man Pun},
+      year={2020},
+      eprint={2007.08113},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
