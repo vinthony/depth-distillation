@@ -19,8 +19,8 @@ we provide results on two datasets under different backbone(VGG19,ResNext101), p
 
 ### Pretrained Models
 
-* VGG19 backbone: [vgg_best.path](https://drive.google.com/file/d/1VigqrPdiIF18VALo92L9WCuASnpzu7qa/view?usp=sharing)
-* ResNeXt101 backbone: [res_best.path](https://drive.google.com/file/d/1HrzFqXSJY2Zxd9qvdKC7_Glxljjd27sf/view?usp=sharing)
+* VGG19 backbone: [vgg_best.pth](https://drive.google.com/file/d/1VigqrPdiIF18VALo92L9WCuASnpzu7qa/view?usp=sharing)
+* ResNeXt101 backbone: [res_best.pth](https://drive.google.com/file/d/1HrzFqXSJY2Zxd9qvdKC7_Glxljjd27sf/view?usp=sharing)
 
 
 ### Dependences
